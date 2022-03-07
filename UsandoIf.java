@@ -13,6 +13,7 @@ public class UsandoIf{
         System.out.println("Digite outro valor");
         valor2 = lendo.nextInt();
 
+        // isso é um if usando apenas uma linha 
         System.out.println(valor1>valor2 ? valor1+" é maior" : valor2+" é maior");
 
         if(valor1>valor2){
