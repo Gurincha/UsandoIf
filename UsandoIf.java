@@ -13,8 +13,10 @@ public class UsandoIf{
         System.out.println("Digite outro valor");
         valor2 = lendo.nextInt();
 
+        System.out.println(valor1>valor2 ? valor1+" é maior" : valor2+" é maior");
+
         if(valor1>valor2){
-            System.out.print(valor1+"é maior!");
+            System.out.print(valor1+" é maior!");
         }else{
             System.out.print(valor2+" é maior!");
         }
