@@ -14,22 +14,9 @@ public class UsandoIf{
         valor2 = lendo.nextInt();
 
         if(valor1>valor2){
-            System.out.print("Valor 1 é maior!");
+            System.out.print(valor1+"é maior!");
         }else{
-            System.out.print("Valor 2 é maior!");
+            System.out.print(valor2+" é maior!");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
